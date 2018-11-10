@@ -1,0 +1,426 @@
+@media (min-width: 440px){
+
+	body,
+	html{
+		max-width: 1440px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	
+	/*Footer*/
+
+	.main-header{
+		display: flex;
+		justify-content: space-between;
+		height: 695px;
+	}
+
+	.main-header__left-colum{
+		width: 720px;
+		background-color: #FFFFFF;
+
+	}
+
+	.main-header__name{
+		width: 210px;
+		height: 90px;
+		background-image: url(../img/logo-desktop.jpg);
+		background-repeat: no-repeat;
+		margin-top: 54px;
+		margin-left: 110px;
+	}
+
+	.main-header__paragraph{
+		width: 570px;
+		margin-left: 110px;
+		margin-top: 80px;
+	}
+
+	.main-header__title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 60px;
+		color: #000000;
+	}
+
+	.main-header__description{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 20px;
+		line-height: 30px;
+		margin-top: 30px;
+		margin-bottom: 13px;
+		color: #000000;
+		width: 390px;
+		display: inline-block;
+	}
+
+	.main-header__right-colum{
+		width: 720px;
+		background-color: #FFFFFF;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	.main-nav__list{
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 17px;
+		line-height: 24px;
+		width: 570px;
+		margin-top: 70px;
+		list-style-type: none;	
+	}
+
+	.main-nav__list-item{
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.main-header__toggles{
+		width: 10px;
+	}
+
+
+	/*Cat Fitnes*/
+
+	.cat-fitnes{
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+		width: 1220px;
+		padding-top: 80px;
+
+	}
+
+	.cat-fitnes__slim,
+	.cat-fitnes__pro{
+		background-color: #F2F2F2;
+		width: 570px;
+		padding-bottom: 60px;
+		position: relative;
+	}
+
+	.cat-fitnes__back-cat{
+		width: 100px;
+		height: 100px;	
+		background-color: #6FB346;
+		border-radius: 50px;
+		position: relative;
+		margin-top: 47px;
+		margin-left: 52px;
+	}
+
+	.cat-fitnes__logo-slim{
+		position: absolute;
+		left: 10px;
+		bottom: 10px;
+	}
+
+	.cat-fitnes__logo-pro{
+		position: absolute;
+		left: -18px;
+		bottom: 25px;
+	}
+
+	.cat-fitnes__title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: lighter;
+		font-size: 36px;
+		line-height: 37px;
+		margin-top: -80px;
+		margin-left: 216px;
+		margin-bottom: 70px;
+	}
+
+	.cat-fitnes__description{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		margin-left: 52px;
+		margin-right: 52px;
+		color: #444444;
+	}
+
+	.cat-fitnes__link{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 20px;
+		line-height: 20px;
+		margin-left: 52px;
+		margin-top: 20px;
+		display: inline-block;
+		text-decoration: none;
+		color: #000000;
+		width: 170px;
+		background-image: url(../img/right-arrow-long.png);
+		background-repeat: no-repeat;
+		background-position: 145px;
+	}
+
+
+	/*Advantages*/
+	
+	.advantages{
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 28px;
+		padding-bottom: 100px;
+		width: 1220px;
+		background-color: #FFFFFF;
+	}
+
+	.advantages-title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 60px;
+		color: #000000;
+	}
+
+	.advantages-list{
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 17px;
+		line-height: 24px;
+		width: 100%;
+		list-style-type: none;			
+		padding: 0;
+		margin: 0;
+		margin-top: 69px;
+	}
+
+	.advantages-item{
+		width: 245px;
+		position: relative;
+	}
+
+	.advantages__logo{
+		width: 80px;
+		height: 80px;
+		background-color: #68B738;	
+		background-repeat: no-repeat;
+		background-position: 25px;
+	}
+
+	.advantages__logo1{
+		background-image: url(..//img/advantage-1.png);
+	}
+
+	.advantages__logo2{
+		background-image: url(..//img/advantage-2.png);
+	}
+
+	.advantages__logo3{
+		background-image: url(..//img/advantage-3.png);
+	}
+
+	.advantages__logo4{
+		background-image: url(..//img/advantage-4.png);
+	}
+
+	.advantages__description{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		color: #444444;
+		display: inline-block;
+		padding-top: 16px;
+	}
+
+	.advantages-item span{
+	font-family: 'Myriad Pro Regular', sans-serif;
+	font-size: 300px;
+	opacity: 0.1;
+	position: absolute;
+	right: 0px;
+	bottom: 55px;
+	}
+
+
+	/*Life-exemple*/
+
+	.life-exemple{
+	}
+
+	.flex-wrapper{
+		display: flex;
+		justify-content: space-between;
+		max-width: 100%;
+		padding: 0px 110px;
+		background-color: #F2F2F2;
+	}
+
+	.life-exemple__story{
+		width: 433px;
+		background-color: #F2F2F2;
+		padding-bottom: 50px;
+	}
+
+	.life-exemple__story-title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 60px;
+		color: #000000;
+		background-color: #ffffff;
+		margin-top: 0px;
+		padding-top: 20px;
+		padding-left: 110px;
+		padding-bottom: 23px;
+	}
+
+	.life-exemple__story-description{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		color: #444444;
+		padding-top: 55px;
+	}
+
+	.life-exemple__story-list{
+		display: flex;
+		list-style-type: none;
+		justify-content: space-between;
+		text-align: center;
+		width: 370px;
+		padding-left: 0px;
+		padding-top: 65px;
+		padding-bottom: 50px;
+	}
+
+	.life-exemple__story-item{
+		position: relative;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 30px;
+		line-height: 37px;
+		width: 160px;
+		border: 2px solid #CFCFCF;
+		border-radius: 3px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.life-exemple__story-span1,
+	.life-exemple__story-span2{
+		font-family: 'Arial Regular', sans-serif;
+		font-size: 14px;
+		line-height: 14px;
+		position: absolute;
+		padding: 0 7px;
+		background-color: #F2F2F2;
+	}
+
+	.life-exemple__story-span1{
+		left: 25px;
+		bottom: -5px;
+	}
+
+	.life-exemple__story-span2{
+		width: 135px;
+		left: 5px;
+		bottom: -5px;
+	}
+
+	.life-exemple__story-many{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	.life-exemple__story-many span{
+		padding-left: 35px;
+	}
+
+	.life-exemple__cat-transform{
+		position: relative;
+	}
+
+	.life-exemple__before{
+		position: absolute;
+		left: -100px;
+		top: -170px;
+	}
+
+	.life-exemple__after{
+		position: absolute;
+		top: -170px;
+		left: 265px;
+	}
+
+	.life-exemple__cat-transform p{
+		padding-top: 370px;
+	}
+
+	/*Footer*/
+
+	.main-map{
+		background-image: url(../img/bg-map-desktop@2x.jpg);
+		background-repeat: no-repeat;
+		background-size: 1440px;
+		height: 400px;
+		
+	}
+
+	.main-map__station{
+		display: flex;
+		justify-content: space-around;
+		width: 570px;
+		background-color: #ffffff;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin-top: 80px;
+		margin-left: 110px;
+	}
+
+	.main-map__station p{
+		display: inline-block;
+		width: 163px;
+	}
+
+	.main-map__station p:first-child{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.main-map__station p:last-child{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.main-footer{
+		display: flex;
+		justify-content: space-between;
+		padding-left: 110px;
+		padding-right: 110px;
+		max-width: 100%;
+		background-color: #F2F2F2;
+		padding-top: 55px;
+		padding-bottom: 25px;
+	}
+
+	.main-footer__social{
+		display: flex;
+		justify-content: space-around;
+		width: 150px;
+		list-style-type: none;
+	}
+
+	.main-footer__academy{
+		position: relative;
+		width: 166px;
+	}
+
+	.main-footer__academy img{
+		position: absolute;
+		right: 0px;
+		top: -5px;
+	}
+}

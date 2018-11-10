@@ -1,0 +1,394 @@
+@media (min-width: 440px){
+
+	body,
+	html{
+		max-width: 1440px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	
+	/*Footer*/
+
+	.main-header{
+		display: flex;
+		justify-content: space-between;
+		width: 1220px;
+		height: 170px;
+	}
+
+	.main-header__left-colum{
+		width: 720px;
+		background-color: #FFFFFF;
+	}
+
+	.main-header__name{
+		width: 210px;
+		height: 90px;
+		background-image: url(../img/logo-desktop.jpg);
+		background-repeat: no-repeat;
+		margin-top: 54px;
+		margin-left: 110px;
+	}
+
+	.main-header__paragraph{
+		width: 456px;
+		margin-left: 191px;
+		margin-top: 80px;
+	}
+
+	.main-header__title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 60px;
+		color: #000000;
+	}
+
+	.main-header__description{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 20px;
+		line-height: 20px;
+		margin-top: -30px;
+		margin-bottom: 13px;
+		color: #000000;
+	}
+
+	.main-header__link{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 20px;
+		line-height: 20px;
+		color: #FFFFFF;
+		background-color: #68B738;
+		padding: 15px;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.main-header__right-colum{
+		width: 500px;
+		position: relative;
+	}
+
+	.main-nav__list{
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 17px;
+		line-height: 24px;
+		width: 570px;
+		margin-top: 70px;
+		list-style-type: none;	
+	}
+
+	.main-nav__list li:nth-child(2){
+		border-bottom: 2px solid #68B738;
+	}
+
+	.main-nav__list-item{
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.main__cat-bottle{
+		position: absolute;
+		width: 552px;
+		height: 499px;
+		left: -160px;
+		top: 150px;
+	}
+
+
+	/*Advantages*/
+	
+	.advantages,
+	.advantages2{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -25px;
+		padding-top: 0px;
+		padding-bottom: 100px;
+		width: 1220px;
+		background-color: #FFFFFF;
+	}
+
+	.advantages-title{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 60px;
+		margin-bottom: 90px;
+		display: inline-block;
+		color: #000000;
+	}
+
+	.advantages-list{
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 17px;
+		line-height: 24px;
+		width: 100%;
+		list-style-type: none;			
+		padding: 0;
+		margin: 0;
+		margin-top: 69px;
+	}
+
+	.advantages-item{
+		width: 245px;
+		height: 430px;
+		position: relative;
+		background-color: #F2F2F2;	
+	}
+
+	.advantages__small-can{
+		position: absolute;
+		left: 45px;
+		top: -45px;
+	}
+
+	.advantages__big-can{
+		position: absolute;
+		left: 25px;
+		top: -78px;
+	}
+
+	.advantages-table{
+		border-collapse: collapse;
+		width: 170px;
+		margin-top: 155px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	.advantages-table caption{
+		width: 110%;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 20px;
+		line-height: 20px;
+		padding-bottom: 20px;
+	}
+
+	.advantages-table td{
+		font-family: 'Arial Regular', sans-serif;
+		font-size: 16px;
+		line-height: 16px;
+		border-bottom: 2px solid #D8D8D8;
+		color: 444444;
+	}
+
+	.advantages-table tr td:last-child{
+		text-align: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.advantages__link{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #68B738;
+		padding: 15px;
+		display: inline-block;
+		text-decoration: none;
+		width: 140px;
+		margin-left: 37px;
+	}
+
+	.advantages2 .advantages-item:last-child{
+		background-color: #FFFFFF;
+		border: 1px solid #F2F2F2;
+	}
+
+	.advantages__link-des{
+		background-color: #F2F2F2;
+		color: #444444;
+	}
+
+
+	/*Life-exemple*/
+
+	.life-exemple{
+		border-top: 4px solid #68B738;
+		position: relative;
+	}
+
+	.flex-wrapper{
+		display: flex;
+		justify-content: space-between;
+		max-width: 100%;
+		padding: 0px 110px;
+		background-color: #ffffff;
+	}
+
+	.life-exemple__story{
+		width: 433px;
+		background-color: #ffffff;
+		padding-bottom: 50px;
+	}
+
+	.life-exemple__story-title{
+		position: absolute;
+		top: -50px;
+		left: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 36px;
+		color: #000000;
+		background-color: #ffffff;
+	}
+
+	.life-exemple__table{
+		margin-top: 100px;
+		margin-bottom: 90px;
+		width: 895px;
+		border-collapse: collapse;
+	}
+
+	.life-exemple__arrow td{
+		padding-top: 16px;
+		padding-bottom: 17px;
+		border-bottom: 2px solid #CDCDCD;
+		color: #222222;
+	}
+
+	.life-exemple__arrow:first-child{
+		border-top: 2px solid #CDCDCD;
+	}
+
+	.life-exemple__produkt{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 20px;
+		width: 325px;
+	}
+
+	.life-exemple__massa{
+		font-family: 'Arial Regular', sans-serif;;
+		font-size: 16px;
+		line-height: 20px;
+		width: 245px;
+	}
+
+	.life-exemple__many{
+		font-family: 'Arial Regular', sans-serif;;
+		font-size: 16px;
+		line-height: 20px;
+		width: 85px;
+	}
+
+	.life-exemple__arrow a{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+		color: #FFFFFF;
+		padding: 10px;
+		background-color: #68B738;
+		display: inline-block;
+		text-decoration: none;
+		width: 215px;
+	}
+
+	.bay-all{
+		background-image: url(../img/catalog/gift);
+		background-image: url(../img/catalog/gift-photo-desktop.jpg);
+		width: 245px;
+		height: 290px;
+		margin-top: 100px;
+	}
+
+	.bay-all img{
+			margin-left: 95px;
+			margin-top: 64px;
+		}
+	
+	.bay-all p{	
+		font-family: 'Arial Regular', sans-serif;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		color: #FFFFFF;
+		width: 170px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		
+	/*Footer*/
+
+	.main-map{
+		background-image: url(../img/bg-map-desktop@2x.jpg);
+		background-repeat: no-repeat;
+		background-size: 1440px;
+		height: 400px;
+		
+	}
+
+	.main-map__station{
+		display: flex;
+		justify-content: space-around;
+		width: 570px;
+		background-color: #ffffff;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin-top: 80px;
+		margin-left: 110px;
+	}
+
+	.main-map__station p{
+		display: inline-block;
+		width: 163px;
+	}
+
+	.main-map__station p:first-child{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.main-map__station p:last-child{
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.main-footer{
+		display: flex;
+		justify-content: space-between;
+		padding-left: 110px;
+		padding-right: 110px;
+		max-width: 100%;
+		background-color: #F2F2F2;
+		padding-top: 55px;
+		padding-bottom: 25px;
+	}
+
+	.main-footer__social{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 150px;
+		list-style-type: none;
+	}
+
+	.main-footer__academy{
+		position: relative;
+		width: 166px;
+	}
+
+	.main-footer__academy img{
+		position: absolute;
+		right: 0px;
+		top: -5px;
+	}
+}
